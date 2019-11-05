@@ -1,0 +1,72 @@
+.squear{
+    width:250px;
+    height:250px;
+    /* padding: 25px; */
+    background-color: red;
+    position: relative;
+}
+.squear2{
+    width:200px;
+    height:200px;
+    background-color:blue;
+    /* margin: 25px; */
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+header{
+    width: 100vw;
+    height: 200px;
+    background-color:rgb(140, 230, 167);
+    font-size: 50px;
+    text-align: center;
+
+}
+header div{
+    padding-top: 75px;
+}
+
+nav{
+    width: 100vw;
+    height: 50px;
+    margin: 0 auto;
+    background-color: rgb(72, 185, 230);
+    display: flex;
+}
+nav .item{
+    font-size: 24px;
+    text-align: center;
+    width: calc(100% / 6);
+    height: 100%;
+    line-height: 200%;
+    /* padding-top: 10px; */
+    background-color: rgb(231, 245, 111);
+    border-right: black 1px solid;
+    
+}
+nav .item a{
+    color: #000;
+    text-decoration: none;
+    transition-duration: 0.6s;
+    
+}
+nav .item a:hover{
+    font-size: 28px;
+    opacity: 0.6;
+}
+nav .item:last-child {
+    border-right: none;
+}
+main{
+    display: flex;
+}
+main .imgs{
+    width: 150px;
+    height: 150px;
+    margin: 25px;
+}
+main .imgs img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
